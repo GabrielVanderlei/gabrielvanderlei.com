@@ -3,6 +3,7 @@
 namespace blog\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class BlogController extends Controller
 {
@@ -15,72 +16,30 @@ class BlogController extends Controller
     }
 
     function portfolio(){
-        $portfolio = [];
+        $projetos = DB::select('select * from portfolio');
+        return view("blog.portfolio") -> withProjetos($projetos);
+    }
 
-        array_push($portfolio, [
-            "image" => "https://gabrielvanderlei.com/quem-sou-eu/assets/screenshots/institutoidv.jpeg",
-            "title" => "Site do Instituto Internacional Despertando Vocações",
-            "description" => ""
-        ]);
 
-        array_push($portfolio, [
-            "image" => "https://gabrielvanderlei.com/quem-sou-eu/assets/screenshots/pdv.jpeg",
-            "title" => "Site do Programa Internacional Despertando Vocações",
-            "description" => ""
-        ]);
+    function produtos(){
+        $produtos = DB::select('select * from portfolio');
+        return view("blog.produtos.index") -> withProdutos($produtos);
+    }
 
-        array_push($portfolio, [
-            "image" => "https://gabrielvanderlei.com/quem-sou-eu/assets/screenshots/cpdvg.jpeg",
-            "title" => "Site do Congresso Internacional Despertando Vocações",
-            "description" => ""
-        ]);
+    function verProduto($slug){
 
-        array_push($portfolio, [
-            "image" => "https://gabrielvanderlei.com/quem-sou-eu/assets/screenshots/ratomica.jpeg",
-            "title" => "Aplicativo Roleta Atômica",
-            "description" => ""
-        ]);
+        $produto = [
+            "title" => "Sites e serviços relacionados.",
+            "image" => "/assets/images/site-top.jpg",
+            "description" => "Seus serviços, produtos e notícias, na internet. Para todos os seus atuais e futuros clientes acessarem.",
+        ];
 
-        array_push($portfolio, [
-            "image" => "https://gabrielvanderlei.com/quem-sou-eu/assets/screenshots/spdvl.jpeg",
-            "title" => "Desenvolvimento do Projeto SMART Event",
-            "description" => ""
-        ]);
-
-        array_push($portfolio, [
-            "image" => "https://gabrielvanderlei.com/quem-sou-eu/assets/screenshots/associados.jpeg",
-            "title" => "Sistema de Associados do Instituto Internacional Despertando Vocações",
-            "description" => ""
-        ]);
-        
-        $portfolio = json_decode(json_encode($portfolio));
-        return view("blog.portfolio") -> withPosts($portfolio);
+        $produto = json_decode(json_encode($produto));
+        return view("blog.produtos.ver")->withProduto($produto);
     }
 
     function contato(){
         return view("blog.contato");
     }
-    
-    function produtos(){
-        $produtos = [];
-
-        array_push($produtos, [
-            "title" => "Criação de Sites",
-            "description" => "O portão de entrada de toda empresa no mundo virtual. Sem complicações, do seu jeito.",
-            "image" => "/assets/site.svg",
-            "action" => "Entrar em contato", 
-            "href" => "/contato"
-        ]);
-
-        array_push($produtos, [
-            "title" => "Criação de Aplicativos",
-            "description" => "Seja um aplicativo de simples divulgação até um complexo sistema de e-commerce.",
-            "image" => "/assets/site.svg",
-            "action" => "Entrar em contato", 
-            "href" => "/contato"
-        ]);
         
-        $produtos = json_decode(json_encode($produtos));
-        return view("blog.produtos") -> withProdutos($produtos);
-    }
 }

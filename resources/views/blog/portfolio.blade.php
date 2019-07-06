@@ -19,11 +19,11 @@
         </div>
 
         <div class="row">
-            @foreach ($posts as $p)
+            @foreach ($projetos as $p)
                 <div class="col col-md-4 p-4 text-center">
-                    <h5>{{$p->title}}<br />
-                    <small>{{$p->description}}</small></h5>
-                    <img width="100%" src="{{$p->image}}" />
+                    <h5>{{$p->titulo}}<br />
+                    <small>{{$p->descricao}}</small></h5>
+                    <img width="100%" src="{{$p->imagem}}" />
                 </div>
             @endforeach
         </div>

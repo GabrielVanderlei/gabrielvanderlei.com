@@ -16,3 +16,10 @@ Route::get('/sobre', 'BlogController@sobre')->name('blog.sobre');
 Route::get('/portfolio', 'BlogController@portfolio')->name('blog.portfolio');
 Route::get('/contato', 'BlogController@contato')->name('blog.contato');
 Route::get('/produtos', 'BlogController@produtos')->name('blog.produtos');
+Route::get('/produtos/{slug}', 'BlogController@verProduto')->name('blog.produtos.ver');
+
+    
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
