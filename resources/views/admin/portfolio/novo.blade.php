@@ -1,4 +1,4 @@
-@extends('layout.principal')
+@extends('layouts.app')
 
 @section('conteudo')
     <div class="container">
@@ -21,32 +21,34 @@
                             Definição<br />
                             <small>Dados do Projeto</small>
                         </h2><br/>
+
+                        @include('alerts.errors')
                         <form action="{{route('admin.portfolio.adicionar')}}" method="post">
                             @csrf
 
                             <div class="form-group">
                                 <label for="titulo">Título do projeto</label>
-                                <input name="titulo" id="titulo" class="form-control" placeholder="Título do projeto"/>
+                                <input name="titulo" id="titulo" class="form-control" value="{{old('titulo')}}" placeholder="Título do projeto"/>
                             </div>
                             
                             <div class="form-group">
                                 <label for="descricao">Descrição do projeto</label>
-                                <textarea name="descricao" id="descricao" class="form-control" placeholder="Descrição do projeto"></textarea>
+                                <textarea name="descricao" id="descricao" class="form-control" placeholder="Descrição do projeto">{{old('descricao')}}</textarea>
                             </div>
                             
                             <div class="form-group">
                                 <label for="detalhes">Detalhes do projeto</label>
-                                <textarea name="detalhes" id="detalhes" class="form-control" placeholder="Detalhes do projeto"></textarea>
+                                <textarea name="detalhes" id="detalhes" class="form-control" placeholder="Detalhes do projeto">{{old('detalhes')}}</textarea>
                             </div>
                             
                             <div class="form-group">
                                 <label for="imagem">URL da Imagem do projeto</label>
-                                <input name="imagem" id="imagem" class="form-control" placeholder="URL da Imagem"/>
+                                <input name="imagem" id="imagem" class="form-control" value="{{old('imagem')}}" placeholder="URL da Imagem"/>
                             </div>
 
                             <div class="form-group">
                                 <label for="url">URL do projeto</label>
-                                <input name="slug" id="url" class="form-control" placeholder="URL do projeto"/>
+                                <input name="slug" id="url" class="form-control" value="{{old('slug')}}" placeholder="URL do projeto"/>
                             </div>
 
                             <input type="submit" class="btn btn-primary"/>

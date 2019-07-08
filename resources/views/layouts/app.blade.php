@@ -90,6 +90,7 @@
             <div class="row justify-content-md-center">
                 <div class="col col-md-8">
                     <main class="py-4">
+                        @yield('conteudo')
                         @yield('content')
                     </main>
                 </div>

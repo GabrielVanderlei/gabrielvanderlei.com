@@ -1,4 +1,4 @@
-@extends('layout.principal')
+@extends('layouts.app')
 
 @section('conteudo')
     <div class="container">
@@ -37,11 +37,13 @@
                                 <td>{{Str::limit($p->imagem,40,"...")}}</td>
                                 <td>{{Str::limit($p->titulo,40,"...")}}</td>
                                 <td><a href="{{route('admin.portfolio.ver',$p->id)}}"><i class="material-icons">edit</i></a></td>
-                                <td><a href="{{route('admin.portfolio.excluir.confirmar',$p->id)}}"><i class="material-icons">delete</i></a></td>
+                                <td><a href="{{route('admin.portfolio.excluir',$p->id)}}" onclick="return confirm('Deseja realmente excluir esse item?');"><i class="material-icons">delete</i></a></td>
                             </tr>
                         @endforeach
                     </tbody>
                 </table>
+                
+                @include('pagination.default', ['paginator' => $projetos])
             </div>
         </div>
     </div>

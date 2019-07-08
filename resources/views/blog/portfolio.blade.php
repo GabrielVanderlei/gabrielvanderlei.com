@@ -1,4 +1,4 @@
-@extends('layout.principal')
+@extends('layouts.principal')
 
 @section('conteudo')
     <div class="container">
@@ -26,6 +26,12 @@
                     <img width="100%" src="{{$p->imagem}}" />
                 </div>
             @endforeach
+        </div>
+
+        <div class="row">
+            <div class="col">
+                @include('pagination.default', ['paginator'=>$projetos])
+            </div>
         </div>
     </div>
 @stop
