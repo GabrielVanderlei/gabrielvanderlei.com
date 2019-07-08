@@ -13,13 +13,23 @@
 
 Route::get('/', 'BlogController@index')->name('blog.inicio');
 Route::get('/sobre', 'BlogController@sobre')->name('blog.sobre');
-Route::get('/portfolio', 'BlogController@portfolio')->name('blog.portfolio');
-Route::get('/contato', 'BlogController@contato')->name('blog.contato');
-Route::get('/produtos', 'BlogController@produtos')->name('blog.produtos');
-Route::get('/produtos/{slug}', 'BlogController@verProduto')->name('blog.produtos.ver');
-
-    
+Route::get('/portfolio', 'PortfolioController@portfolio')->name('blog.portfolio');
+Route::get('/contato', 'ContatoController@contato')->name('blog.contato');
+Route::get('/produtos', 'ProdutoController@produtos')->name('blog.produtos');
+Route::get('/produtos/{slug}', 'ProdutoController@verProduto')->name('blog.produtos.ver');
+Route::get('/blog', 'BlogController@postagens')->name('blog.postagens');
+Route::get('/blog/{slug}', 'BlogController@verPostagem')->name('blog.postagens.ver');
 
 Auth::routes();
+Route::get('/administracao', 'HomeController@index')->name('admin');
+Route::get('/administracao/portfolio', 'PortfolioController@listar')->name('admin.portfolio');
+Route::get('/administracao/portfolio/novo', 'PortfolioController@novo')->name('admin.portfolio.novo');
+Route::post('/administracao/portfolio/adicionar', 'PortfolioController@adicionar')->name('admin.portfolio.adicionar');
+Route::get('/administracao/portfolio/{id}', 'PortfolioController@ver')->where('id', '[0-9]+')->name('admin.portfolio.ver');
+Route::get('/administracao/portfolio/{id}/excluir/confirm', 'PortfolioController@confirmarExclusao')->where('id', '[0-9]+')->name('admin.portfolio.excluir.confirmar');
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/administracao/produtos', 'ProdutoController@listar')->name('admin.produtos');
+Route::get('/administracao/contato', 'ContatoController@listar')->name('admin.contatos');
+Route::get('/administracao/postagens', 'BlogController@listar')->name('admin.postagens');
+Route::get('/administracao/pedidos', 'VendasController@listar')->name('admin.pedidos');
+

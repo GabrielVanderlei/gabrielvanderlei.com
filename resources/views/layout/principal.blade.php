@@ -21,26 +21,23 @@
                 <a class="nav-item nav-link {{(Route::current()->getName() == 'blog.sobre') ? 'active':''}}" href="{{route('blog.sobre')}}">Sobre Mim <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link {{(Route::current()->getName() == 'blog.portfolio') ? 'active':''}}" href="{{route('blog.portfolio')}}">Portfólio</a>
                 <a class="nav-item nav-link {{(Route::current()->getName() == 'blog.produtos') ? 'active':''}}" href="{{route('blog.produtos')}}">Produtos</a>
+                <a class="nav-item nav-link {{(Route::current()->getName() == 'blog.postagens') ? 'active':''}}" href="{{route('blog.postagens')}}">Blog</a>
                 <a class="nav-item nav-link {{(Route::current()->getName() == 'blog.contato') ? 'active':''}}" href="{{route('blog.contato')}}">Contato</a>
+                @if (Route::has('login'))
+                    @auth
+                        <a class="nav-item nav-link" href="{{ route('admin') }}">Painel</a>
+                    @else
+                        <a class="nav-item nav-link" href="{{ route('login') }}">Entrar</a>
+                        @if (Route::has('register'))
+                            <a class="nav-item nav-link" href="{{ route('register') }}">Registro</a>
+                        @endif
+                    @endauth
+                @endif
                 </div>
             </div>
         </nav>
         </header>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
             @yield("conteudo")
         </div>
         <footer>

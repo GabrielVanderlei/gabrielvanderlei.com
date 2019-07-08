@@ -8,8 +8,8 @@
         <div class="row">
             <div class="col text-center">
                 <div class="h1">
-                    <span style="color:rgb(20, 100, 120);">Produtos e Serviços</span><br />
-                    <small>O que eu tenho a oferecer para o seu negócio?</small>
+                    <span style="color:rgb(20, 100, 120);">Blog</span><br />
+                    <small>Conheça um pouco mais sobre os produtos desenvolvidos, o modo como ocorre o desenvolvimento e notícias relacionadas.</small>
                 </div>
             </div>
         </div>
@@ -22,7 +22,7 @@
                 <div class="col-xs-12" style="height:60px;"></div>
             </div>
             <div class="row">
-                @foreach ($produtos as $i => $p)
+                @foreach ($postagens as $i => $p)
                     <div class="col col-md-5 m-4" >
                         <div class="row m-4">
                             <div class="col">
@@ -32,7 +32,7 @@
                         <div class="row">
                             <div class="col p-4 text-center">
                                 <div class="display-4">{{$p->titulo}}<br /></div><br />
-                                <a href="/produtos/{{$p->slug}}" class="btn btn-primary">Saiba mais sobre o produto</a>
+                                <a href="/blog/{{$p->slug}}" class="btn btn-primary">Saiba mais sobre o produto</a>
                             </div>
                         </div>
                     </div>

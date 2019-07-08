@@ -1,6 +1,6 @@
 <?php
 
-namespace blog\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -15,31 +15,14 @@ class BlogController extends Controller
         return view("blog.sobre");
     }
 
-    function portfolio(){
-        $projetos = DB::select('select * from portfolio');
-        return view("blog.portfolio") -> withProjetos($projetos);
+    function postagens(){
+        $postagens = DB::select('select * from postagens');
+        return view("blog.posts.index") -> withPostagens($postagens);
     }
-
-
-    function produtos(){
-        $produtos = DB::select('select * from portfolio');
-        return view("blog.produtos.index") -> withProdutos($produtos);
-    }
-
-    function verProduto($slug){
-
-        $produto = [
-            "title" => "Sites e serviços relacionados.",
-            "image" => "/assets/images/site-top.jpg",
-            "description" => "Seus serviços, produtos e notícias, na internet. Para todos os seus atuais e futuros clientes acessarem.",
-        ];
-
-        $produto = json_decode(json_encode($produto));
-        return view("blog.produtos.ver")->withProduto($produto);
-    }
-
-    function contato(){
-        return view("blog.contato");
+    
+    function verPostagem($slug){
+        $postagem = DB::select('select * from postagens where slug = ? ', array($slug));
+        return view("blog.posts.ver") -> withPostagem($postagem[0]);
     }
         
 }

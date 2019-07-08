@@ -20,6 +20,7 @@ class CreatePostagensTable extends Migration
             $table->string('descricao');
             $table->string('imagem');
             $table->string('detalhes');
+            $table->string('tags');
             $table->timestamps();
         });
     }
