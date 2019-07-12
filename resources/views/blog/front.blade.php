@@ -64,7 +64,7 @@
                             Sou <b>Coordenador de Tecnologia da Informação</b> no <b>Instituto Internacional Despertando Vocações</b>, onde eu desenvolvi a maior parte dos projetos como profissional. <br><br>
                             <b>Agora eu ofereço meus serviços para te auxiliar a transformar em realidade suas ideias.</b>
                             <br><br/>
-                            <a href="/quem-sou-eu" style="background:rgb(20, 100, 120);" class="btn btn-lg btn-primary">Clique aqui para saber mais sobre mim e sobre os projetos que realizei.</a>
+                            <a href="/sobre" style="background:rgb(20, 100, 120);" class="btn btn-lg btn-primary">Clique aqui para saber mais sobre mim e sobre os projetos que realizei.</a>
                         </small>
                     </div>
                 </div>

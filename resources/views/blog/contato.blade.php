@@ -18,28 +18,33 @@
         </div>
         <div class="row justify-content-md-center">
             <div class="col col-md-6">
-                <div class="form-group">
-                    <input placeholder="Nome Completo" type="text" class="form-control" />
-                </div>
-                <div class="form-group">
-                    <input placeholder="E-mail" type="text" class="form-control" />
-                </div>
-                <div class="form-group">
-                    <input placeholder="Celular" type="text" class="form-control" />
-                </div>
-                <div class="form-group">
-                    <select class="form-control">
-                        <option>Solicitação de orçamento</option>
-                        <option>Dúvida</option>
-                        <option>Parceria</option>
-                        <option>Sugestão</option>
-                        <option>Reclamação</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <textarea placeholder="Mensagem" class="form-control"></textarea>
-                </div>
-                <input type="submit" class="btn btn-primary" value="Enviar" />
+                
+                @include('alerts.errors')
+                <form method="post" action="{{route('blog.contatos.adicionar')}}">
+                    @csrf
+                    <div class="form-group">
+                        <input name="nome" placeholder="Nome Completo" type="text" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <input name="email" placeholder="E-mail" type="text" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <input name="celular" placeholder="Celular" type="text" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <select name="motivo" class="form-control">
+                            <option>Solicitação de orçamento</option>
+                            <option>Dúvida</option>
+                            <option>Parceria</option>
+                            <option>Sugestão</option>
+                            <option>Reclamação</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="mensagem" placeholder="Mensagem" class="form-control"></textarea>
+                    </div>
+                    <input type="submit" class="btn btn-primary" value="Enviar" />
+                </form>
             </div>
         </div>
     </div>

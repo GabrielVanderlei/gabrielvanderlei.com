@@ -22,6 +22,8 @@ class CreateProdutosTable extends Migration
             $table->string('imagem_topo');
             $table->string('detalhes');
             $table->timestamps();
+            
+            $table->unique('slug');
         });
     }
 

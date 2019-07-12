@@ -23,16 +23,6 @@
                 <a class="nav-item nav-link {{(Route::current()->getName() == 'blog.produtos') ? 'active':''}}" href="{{route('blog.produtos')}}">Produtos</a>
                 <a class="nav-item nav-link {{(Route::current()->getName() == 'blog.postagens') ? 'active':''}}" href="{{route('blog.postagens')}}">Blog</a>
                 <a class="nav-item nav-link {{(Route::current()->getName() == 'blog.contato') ? 'active':''}}" href="{{route('blog.contato')}}">Contato</a>
-                @if (Route::has('login'))
-                    @auth
-                        <a class="nav-item nav-link" href="{{ route('admin') }}">Painel</a>
-                    @else
-                        <a class="nav-item nav-link" href="{{ route('login') }}">Entrar</a>
-                        @if (Route::has('register'))
-                            <a class="nav-item nav-link" href="{{ route('register') }}">Registro</a>
-                        @endif
-                    @endauth
-                @endif
                 </div>
             </div>
         </nav>

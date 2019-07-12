@@ -33,6 +33,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
+                        @auth
                         <li class="nav-item">
                             <a class="nav-item nav-link {{(Route::current()->getName() == 'admin.produtos') ? 'active':''}}" href="{{route('admin.portfolio')}}">Portfólio</a>
                         </li>
@@ -40,14 +41,12 @@
                             <a class="nav-item nav-link {{(Route::current()->getName() == 'admin.produtos') ? 'active':''}}" href="{{route('admin.produtos')}}">Produtos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-item nav-link {{(Route::current()->getName() == 'admin.postagens') ? 'active':''}}" href="{{route('admin.postagens')}}">Postagens</a>
+                            <a class="nav-item nav-link {{(Route::current()->getName() == 'admin.blog') ? 'active':''}}" href="{{route('admin.blog')}}">Postagens</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-item nav-link {{(Route::current()->getName() == 'admin.contatos') ? 'active':''}}" href="{{route('admin.contatos')}}">Contatos</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-item nav-link {{(Route::current()->getName() == 'admin.pedidos') ? 'active':''}}" href="{{route('admin.pedidos')}}">Pedidos</a>
-                        </li>
+                        @endauth
                     </ul>
 
                     <!-- Right Side Of Navbar -->
