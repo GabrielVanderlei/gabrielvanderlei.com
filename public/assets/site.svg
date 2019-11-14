@@ -1,5 +1,0 @@
-<!--<svg viewBox="-6 -6 12 12" xmlns="http://www.w3.org/2000/svg">-->
-<svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-  <!--<circle cx="0.1" cy="-0.4" r="5.5" stroke="black" stroke-width="0.2" fill="white" />-->
-  <rect x="1.0" y="1.0" width="8.5" stroke-width="0.5" stroke="rgb(220, 220, 220)" stroke-linejoin="round" height="7.5" fill="rgb(220, 220, 220)" />
-</svg>
