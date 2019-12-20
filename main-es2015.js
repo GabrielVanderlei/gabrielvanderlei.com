@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-header></app-header>\n<router-outlet></router-outlet>");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-header></app-header>\r\n<router-outlet></router-outlet>");
 
 /***/ }),
 
@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid p-5\">\n  <br /><br /><br />\n  <div class=\"row\">\n    <div class=\"col col-md-3\">\n      <div class=\"display-4\">\n        Bem vindo<br />\n        <h3>@username</h3>\n      </div>\n    </div>\n  </div>\n  <br />\n</div>\n<div class=\"container-fluid p-5\">\n  <div class=\"row\">\n    <div class=\"col col-md-3 p-4\">\n      <div class=\"h2\">\n        Usuário<br />\n        <small>\n          <a class=\"text-secondary\" href=\"/usr/ver\">Minhas informações</a><br/>\n          <a class=\"text-secondary\" href=\"/usr/ver\">Todos os usuários</a><br/>\n        </small>\n      </div>\n    </div>\n    <div class=\"col col-md-3 p-4\">\n      <div class=\"h2\">\n        Certificados<br />\n        <small>\n          <a class=\"text-secondary\" href=\"/usr/ver\">Meus certificados</a><br/>\n          <a class=\"text-secondary\" href=\"/usr/ver\">Todos certificados</a><br/>\n        </small>\n      </div>\n    </div>\n    <div class=\"col col-md-3 p-4\">\n      <div class=\"h2\">\n        Associação<br />\n        <small>\n          <a class=\"text-secondary\" href=\"/usr/ver\">Minha associação</a><br/>\n          <a class=\"text-secondary\" href=\"/usr/ver\">Todas associações</a><br/>\n        </small>\n      </div>\n    </div>\n    <div class=\"col col-md-3 p-4\">\n      <div class=\"h2\">\n        PDV<br />\n        <small>\n          <a class=\"text-secondary\" href=\"/usr/ver\">Meu PDV</a><br/>\n          <a class=\"text-secondary\" href=\"/usr/ver\">PDV's cadastrados</a><br/>\n        </small>\n      </div>\n    </div>\n  </div><br />\n  <div class=\"row\">\n    <div class=\"col col-md-3 p-4\">\n      <div class=\"h2\">\n        Intercâmbio<br />\n        <small>\n          <a class=\"text-secondary\" href=\"/usr/ver\">Chamadas abertas</a><br/>\n          <a class=\"text-secondary\" href=\"/usr/ver\">Meu Intercâmbio</a><br/>\n        </small>\n      </div>\n    </div>\n    <div class=\"col col-md-3 p-4\">\n      <div class=\"h2\">\n        PDVLearning<br />\n        <small>\n          <a class=\"text-secondary\" href=\"/usr/ver\">Meu PDVLearning</a><br/>\n        </small>\n      </div>\n    </div>\n    <div class=\"col col-md-3 p-4\">\n      <div class=\"h2\">\n        Viagens<br />\n        <small>\n          <a class=\"text-secondary\" href=\"/usr/ver\">Minhas viagens</a><br/>\n        </small>\n      </div>\n    </div>\n    <div class=\"col col-md-3 p-4\">\n      <div class=\"h2\">\n        Pesquisa<br />\n        <small>\n          <a class=\"text-secondary\" href=\"/usr/ver\">Minhas pesquisas</a><br/>\n        </small>\n      </div>\n    </div>\n  </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid p-5\">\r\n  <br /><br /><br />\r\n  <div class=\"row\">\r\n    <div class=\"col col-md-3\">\r\n      <div class=\"display-4\">\r\n        Bem vindo<br />\r\n        <h3>@username</h3>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <br />\r\n</div>\r\n<div class=\"container-fluid p-5\">\r\n  <div class=\"row\">\r\n    <div class=\"col col-md-3 p-4\">\r\n      <div class=\"h2\">\r\n        Usuário<br />\r\n        <small>\r\n          <a class=\"text-secondary\" href=\"/usr/ver\">Minhas informações</a><br/>\r\n          <a class=\"text-secondary\" href=\"/usr/ver\">Todos os usuários</a><br/>\r\n        </small>\r\n      </div>\r\n    </div>\r\n    <div class=\"col col-md-3 p-4\">\r\n      <div class=\"h2\">\r\n        Certificados<br />\r\n        <small>\r\n          <a class=\"text-secondary\" href=\"/usr/ver\">Meus certificados</a><br/>\r\n          <a class=\"text-secondary\" href=\"/usr/ver\">Todos certificados</a><br/>\r\n        </small>\r\n      </div>\r\n    </div>\r\n    <div class=\"col col-md-3 p-4\">\r\n      <div class=\"h2\">\r\n        Associação<br />\r\n        <small>\r\n          <a class=\"text-secondary\" href=\"/usr/ver\">Minha associação</a><br/>\r\n          <a class=\"text-secondary\" href=\"/usr/ver\">Todas associações</a><br/>\r\n        </small>\r\n      </div>\r\n    </div>\r\n    <div class=\"col col-md-3 p-4\">\r\n      <div class=\"h2\">\r\n        PDV<br />\r\n        <small>\r\n          <a class=\"text-secondary\" href=\"/usr/ver\">Meu PDV</a><br/>\r\n          <a class=\"text-secondary\" href=\"/usr/ver\">PDV's cadastrados</a><br/>\r\n        </small>\r\n      </div>\r\n    </div>\r\n  </div><br />\r\n  <div class=\"row\">\r\n    <div class=\"col col-md-3 p-4\">\r\n      <div class=\"h2\">\r\n        Intercâmbio<br />\r\n        <small>\r\n          <a class=\"text-secondary\" href=\"/usr/ver\">Chamadas abertas</a><br/>\r\n          <a class=\"text-secondary\" href=\"/usr/ver\">Meu Intercâmbio</a><br/>\r\n        </small>\r\n      </div>\r\n    </div>\r\n    <div class=\"col col-md-3 p-4\">\r\n      <div class=\"h2\">\r\n        PDVLearning<br />\r\n        <small>\r\n          <a class=\"text-secondary\" href=\"/usr/ver\">Meu PDVLearning</a><br/>\r\n        </small>\r\n      </div>\r\n    </div>\r\n    <div class=\"col col-md-3 p-4\">\r\n      <div class=\"h2\">\r\n        Viagens<br />\r\n        <small>\r\n          <a class=\"text-secondary\" href=\"/usr/ver\">Minhas viagens</a><br/>\r\n        </small>\r\n      </div>\r\n    </div>\r\n    <div class=\"col col-md-3 p-4\">\r\n      <div class=\"h2\">\r\n        Pesquisa<br />\r\n        <small>\r\n          <a class=\"text-secondary\" href=\"/usr/ver\">Minhas pesquisas</a><br/>\r\n        </small>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>");
 
 /***/ }),
 
@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"bg-light\">\n  <div class=\"container\">\n    <br /><br />\n    <div class=\"display-4\">\n      Entrar<br />\n      <small>Entre usando sua conta do <b>meu</b>.institutoidv.org</small>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-md-6\">\n        <form>\n          <br /><br />\n          <div class=\"form-group\">\n            <label for=\"email\">Email</label>\n            <input id=\"email\" type=\"email\" class=\"form-control\"  />\n          </div>\n          <div class=\"form-group\">\n            <label for=\"password\">Senha</label>\n            <input id=\"password\" type=\"password\" class=\"form-control\"  />\n          </div>\n          <input type=\"submit\" class=\"btn-primary btn\" />\n          <br/><br />\n          <br/><br />\n          <a class=\"btn btn-sm btn-primary\" href=\"/esqueci\">Esqueci a senha</a><br />\n          <a href=\"/estrangeiro\">Não possuo CPF</a>\n          <br/><br />\n          <br/><br />\n        </form>\n      </div>\n    </div>\n  </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"bg-light\">\r\n  <div class=\"container\">\r\n    <br /><br />\r\n    <div class=\"display-4\">\r\n      Entrar<br />\r\n      <small>Entre usando sua conta do <b>meu</b>.institutoidv.org</small>\r\n    </div>\r\n    <div class=\"row\">\r\n      <div class=\"col-md-6\">\r\n        <form>\r\n          <br /><br />\r\n          <div class=\"form-group\">\r\n            <label for=\"email\">Email</label>\r\n            <input id=\"email\" type=\"email\" class=\"form-control\"  />\r\n          </div>\r\n          <div class=\"form-group\">\r\n            <label for=\"password\">Senha</label>\r\n            <input id=\"password\" type=\"password\" class=\"form-control\"  />\r\n          </div>\r\n          <input type=\"submit\" class=\"btn-primary btn\" />\r\n          <br/><br />\r\n          <br/><br />\r\n          <a class=\"btn btn-sm btn-primary\" href=\"/esqueci\">Esqueci a senha</a><br />\r\n          <a href=\"/estrangeiro\">Não possuo CPF</a>\r\n          <br/><br />\r\n          <br/><br />\r\n        </form>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>");
 
 /***/ }),
 
@@ -71,7 +71,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Alterna navegação\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n      <ul class=\"navbar-nav\">\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"/entrar\">Entrar na conta <span class=\"sr-only\">(Página atual)</span></a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"/registro\">Registrar conta</a>\n        </li>\n      </ul>\n    </div>\n  </nav>");
+/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark \">\r\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Alterna navegação\">\r\n      <span class=\"navbar-toggler-icon\"></span>\r\n    </button>\r\n    <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\r\n      <ul class=\"navbar-nav\">\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link\" href=\"/\">gabriel<b>vanderlei</b></a>\r\n        </li>\r\n      </ul>\r\n    </div>\r\n  </nav>");
 
 /***/ }),
 
@@ -84,7 +84,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"display-1 bg-light\">\n  <div class=\"container\">\n    <br /><br/>\n    <div class=\"p-4\">\n      <b>meu</b>.institutoidv.org\n    </div>\n  </div>\n</div>\n<div class=\"container\">\n  <br /><br/><br />\n  <br /><br/><br />\n  <br /><br/><br />\n  <div class=\"options\">\n    <div class=\"display-4\">\n      Informatização dos dados dos participantes do Instituto\n      <br />\n      <br />\n      <small>\n        A plataforma <b>meu</b>.institutoidv.org unifica todos os dados do Instituto Internacional Despertando Vocações em um único local.\n      </small>\n      <br /><br/><br />\n    </div>\n  </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"bg-dark display-1 text-white\">\r\n  <div class=\"container\">\r\n    <br /><br/>\r\n    <div class=\"p-4\">\r\n      <div class=\"display-4\">Turn your ideias into actions.<br />\r\n      <small>Choose your product and begin the transformation</small></div>\r\n      <a href=\"https://wa.me/5581987023928\" class='btn btn-primary'>Tell me your project at WhatsApp</a>\r\n    </div>\r\n  </div>\r\n  <br /><br/>\r\n</div>\r\n<div class=\"container-fluid\">\r\n  <div class=\"container\">\r\n    <br /><br/><br />\r\n    <br /><br/><br />\r\n    <br /><br/><br />\r\n    <div class=\"row\">\r\n      <div class=\"col\">\r\n        <div class=\"display-3\">\r\n          Projects.\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"row\">\r\n      <div class=\"col\">\r\n        <div class=\"display-4\">\r\n          I am nowadays Full Stack developer, researcher into eletronics embedded systems and volunteer Information Technology Coordinator of International Institute Awakening Vocations.  \r\n        </div>\r\n      </div>\r\n    </div>\r\n    <br /><br/><br />\r\n    <br /><br/><br />\r\n    <br /><br/><br />\r\n  </div>\r\n</div>\r\n\r\n<app-project \r\n  title=\"SMART Event\"\r\n  description=\"Event management system built with a well developed framework and used into the principal events of International Institute Awakening Vocations.\"\r\n  image=\"smart-event.png\"></app-project>\r\n\r\n<app-project \r\n  title=\"Certification System.\"\r\n  description=\"Certification System developed to the International Institute Awakening Vocations.\"\r\n  image=\"certificados.png\"></app-project>\r\n  \r\n<app-project \r\n  title=\"Association System.\"\r\n  description=\"Association System developed to the International Institute Awakening Vocations.\"\r\n  image=\"associados.png\"></app-project>\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <div class=\"display-4 font-weight-bold\">\r\n        My IIDV.\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <div class=\"h1 font-weight-bold\">\r\n        In development\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <div class=\"display-4\">\r\n        Enterprise Resource Planning system to the International Institute Awakening Vocations.\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <br /><br/><br />\r\n  <br /><br/><br />\r\n  <br /><br/><br />\r\n</div>\r\n\r\n\r\n<div class=\"container\">\r\n  <br /><br/><br />\r\n  <br /><br/><br />\r\n  <br /><br/><br />\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <div class=\"display-3\">\r\n        Mentoring.\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <div class=\"display-4\">\r\n        Helping to awake vocations isn't just working into related systems. It is also building the intrinsical light that exists into others.\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <br /><br/><br />\r\n  <br /><br/><br />\r\n  \r\n  <br /><br/><br />\r\n</div>\r\n\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <div class=\"display-4 font-weight-bold\">\r\n        Eventbot.\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <div class=\"h1 font-weight-bold\">\r\n        In development\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <div class=\"display-4\">\r\n        Telegram bot to help with event management.\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <br /><br/><br />\r\n  <br /><br/><br />\r\n  <br /><br/><br />\r\n</div>\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <div class=\"display-4 font-weight-bold\">\r\n        UFPE Circular Simple App.\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <div class=\"h1 font-weight-bold\">\r\n        In development\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <div class=\"display-4\">\r\n        A simple app to help stundents to understand how the UFPE Circular moves into the university. And sure, to help them to get the bus more easily.\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <br /><br/><br />\r\n  <br /><br/><br />\r\n  <br /><br/><br />\r\n</div>\r\n\r\n\r\n<div class=\"container-fluid bg-light text-center\">\r\n  <br /><br/><br />\r\n  <br /><br/><br />\r\n  <br /><br/><br />\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <div class=\"display-3\">\r\n        Startup's.\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <div class=\"display-4\">\r\n        Comming soon...\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <br /><br/><br />\r\n  <br /><br/><br />\r\n  <br /><br/><br />\r\n</div>\r\n<div class=\"container-fluid p-5 bg-dark text-white\">\r\n  <br /><br/><br />\r\n  <br /><br/><br />\r\n  <br /><br/><br />\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <div class=\"display-3\">\r\n        Get in touch.\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <div class=\"display-4\">\r\n        Tell me your problem, and I will solve it for you.<br />\r\n        <a href=\"https://wa.me/5581987023928\" class='btn btn-light'>Tell me your project at WhatsApp</a>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <br /><br/><br />\r\n  <br /><br/><br />\r\n  <br /><br/><br />\r\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/project/project.component.html":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/project/project.component.html ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid\">\n  <div class=\"project-background-container\">\n    <img class=\"project-background\" [src]=\"'/assets/' + image\" />\n  </div>\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col\">\n        <div class=\"display-4 font-weight-bold\">\n          {{title}}\n        </div>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col\">\n        <div class=\"display-4\">\n          {{description}}\n        </div>\n      </div>\n    </div>\n    <br /><br/><br />\n    <br /><br/><br />\n    <br /><br/><br />\n  </div>\n</div>");
 
 /***/ }),
 
@@ -97,7 +110,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"bg-light\">\n    <div class=\"container\">\n      <br /><br />\n      <div class=\"display-4\">\n        Registro<br />\n        <small>Crie um conta <b>meu</b>.institutoidv.org</small>\n      </div>\n      <div class=\"row\">\n        <div class=\"col-md-6\">\n          <form>\n              <br /><br />\n              <br /><br />\n            <div class=\"form-group\">\n              <label for=\"email\">E-mail</label>\n              <input id=\"email\" type=\"text\" class=\"form-control\"  />\n            </div>\n            <input type=\"submit\" class=\"btn-primary btn\" value=\"Próximo\" />\n            <br /><br />\n            <br /><br />\n            <br /><br />\n            <br /><br />\n          </form>\n        </div>\n      </div>\n    </div>\n  </div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"bg-light\">\r\n    <div class=\"container\">\r\n      <br /><br />\r\n      <div class=\"display-4\">\r\n        Registro<br />\r\n        <small>Crie um conta <b>meu</b>.institutoidv.org</small>\r\n      </div>\r\n      <div class=\"row\">\r\n        <div class=\"col-md-6\">\r\n          <form>\r\n              <br /><br />\r\n              <br /><br />\r\n            <div class=\"form-group\">\r\n              <label for=\"email\">E-mail</label>\r\n              <input id=\"email\" type=\"text\" class=\"form-control\"  />\r\n            </div>\r\n            <input type=\"submit\" class=\"btn-primary btn\" value=\"Próximo\" />\r\n            <br /><br />\r\n            <br /><br />\r\n            <br /><br />\r\n            <br /><br />\r\n          </form>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>");
 
 /***/ }),
 
@@ -437,6 +450,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _entrar_entrar_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./entrar/entrar.component */ "./src/app/entrar/entrar.component.ts");
 /* harmony import */ var _registro_registro_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./registro/registro.component */ "./src/app/registro/registro.component.ts");
 /* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
+/* harmony import */ var _project_project_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./project/project.component */ "./src/app/project/project.component.ts");
+
 
 
 
@@ -457,7 +472,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _header_header_component__WEBPACK_IMPORTED_MODULE_6__["HeaderComponent"],
             _entrar_entrar_component__WEBPACK_IMPORTED_MODULE_7__["EntrarComponent"],
             _registro_registro_component__WEBPACK_IMPORTED_MODULE_8__["RegistroComponent"],
-            _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_9__["DashboardComponent"]
+            _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_9__["DashboardComponent"],
+            _project_project_component__WEBPACK_IMPORTED_MODULE_10__["ProjectComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -650,6 +666,59 @@ HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
+/***/ "./src/app/project/project.component.css":
+/*!***********************************************!*\
+  !*** ./src/app/project/project.component.css ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".project-background-container{\r\n    text-align: center;\r\n}\r\n\r\n.project-background{\r\n    border-radius: 5px;\r\n    margin: 30px 15px;\r\n    width: 90%;\r\n    display: inline-block;\r\n    box-shadow: 0 0 7px rgba(0,0,0,0.3);\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdC9wcm9qZWN0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxrQkFBa0I7QUFDdEI7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsaUJBQWlCO0lBQ2pCLFVBQVU7SUFDVixxQkFBcUI7SUFDckIsbUNBQW1DO0FBQ3ZDIiwiZmlsZSI6InNyYy9hcHAvcHJvamVjdC9wcm9qZWN0LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucHJvamVjdC1iYWNrZ3JvdW5kLWNvbnRhaW5lcntcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLnByb2plY3QtYmFja2dyb3VuZHtcclxuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICAgIG1hcmdpbjogMzBweCAxNXB4O1xyXG4gICAgd2lkdGg6IDkwJTtcclxuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgIGJveC1zaGFkb3c6IDAgMCA3cHggcmdiYSgwLDAsMCwwLjMpO1xyXG59Il19 */");
+
+/***/ }),
+
+/***/ "./src/app/project/project.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/project/project.component.ts ***!
+  \**********************************************/
+/*! exports provided: ProjectComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectComponent", function() { return ProjectComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let ProjectComponent = class ProjectComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
+], ProjectComponent.prototype, "title", void 0);
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
+], ProjectComponent.prototype, "description", void 0);
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
+], ProjectComponent.prototype, "image", void 0);
+ProjectComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-project',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./project.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/project/project.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./project.component.css */ "./src/app/project/project.component.css")).default]
+    })
+], ProjectComponent);
+
+
+
+/***/ }),
+
 /***/ "./src/app/registro/registro.component.css":
 /*!*************************************************!*\
   !*** ./src/app/registro/registro.component.css ***!
@@ -759,7 +828,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\gabri.000\Desktop\Projetos\gabrielvanderlei.com\Git\gabrielvanderlei.com\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\ALLTAX\Desktop\Projetos\Others\gvs\gabrielvanderlei.com - app\src\main.ts */"./src/main.ts");
 
 
 /***/ })
