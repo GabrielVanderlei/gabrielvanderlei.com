@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { EntrarComponent } from './entrar/entrar.component';
 import { RegistroComponent } from './registro/registro.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
    declarations: [
@@ -16,7 +17,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
       HeaderComponent,
       EntrarComponent,
       RegistroComponent,
-      DashboardComponent
+      DashboardComponent,
+      ProjectComponent
    ],
    imports: [
       BrowserModule,
