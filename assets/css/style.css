@@ -45,7 +45,8 @@ main{
 }
 
 section img{
-    width: 33%;
+    width: 26%;
+    margin: 7px;
     border-radius: 5px;
     box-shadow: 0 0 7px rgba(0,0,0,0.15);
 }
