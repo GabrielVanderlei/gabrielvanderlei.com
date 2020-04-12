@@ -1,6 +1,7 @@
 CACHE MANIFEST
 #v6
 
+CACHE:
 /assets/imgs/institutoidv.jp2?v=1
 /assets/imgs/cointer-pdvg.jp2?v=1
 /assets/imgs/cointer-pdvl.jp2?v=1
@@ -11,3 +12,6 @@ CACHE MANIFEST
 /assets/imgs/smart-pdvagro.jp2?v=1
 /assets/imgs/smart-pdvl.jp2?v=1
 /assets/css/style.css?v=1
+
+NETWORK:
+*
