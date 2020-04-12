@@ -8,13 +8,11 @@
     <meta http-equiv="Expires" content="600" />
     <title>Gabriel Vanderlei</title>
     <link rel="stylesheet" href="./assets/css/style.css?v=1" />
-    <script>
-        var appCache = window.applicationCache;
-        appCache.update(); // Attempt to update the user's cache.
-        if (appCache.status == window.applicationCache.UPDATEREADY) {
-        appCache.swapCache();  // The fetch was successful, swap in the new cache.
-        }
+    <script type="text/javascript">
+        window.applicationCache.addEventListener("updateready",
+            (event) => { window.location.reload(true) });
     </script>
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132888969-3"></script>
     <script>
