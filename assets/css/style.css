@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@500&display=swap');
 
+:root {
+  --icon-color: #212121;
+}
+
 html {
   font-family: 'Lato', sans-serif;
 }
@@ -58,6 +62,13 @@ section img{
   box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.2), 0px 6px 9px 0px rgba(0,0,0,0.14), 0px 1px 18px 0px rgba(0,0,0,0.12);
 }
 
+#social-icons {
+  width: 250px;
+  margin: 10px auto;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
 .project{
     width: 40%;
     display: inline-block;
