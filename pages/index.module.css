@@ -40,7 +40,7 @@
     font-weight: normal;
     margin-top: 50px;
     font-size: 22px;
-    border: 2px solid black;
+    border: 2px solid transparent;
     padding: 9px;
     display: inline-block;
     border-radius: 5px;
@@ -50,7 +50,7 @@
     font-weight: normal;
     margin-top: 50px;
     font-size: 32px;
-    border: 2px solid transparent;
+    border: 2px solid black;
     padding: 15px;
     display: inline-block;
     border-radius: 5px;
