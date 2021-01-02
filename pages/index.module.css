@@ -1,0 +1,151 @@
+.title {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.img{
+    border-radius: 300px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.15);
+    width: 200px;
+}
+
+.information{
+    text-align: left;
+    line-height: 33px;
+    font-size: 18px;
+}
+
+.element{
+    text-align: left;
+    display: inline-block;
+}
+
+.elementWithImages{
+    text-align: left;
+    display: inline-block;
+}
+
+.elementWithImages img{
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.15);
+    margin: 15px;
+}
+
+.elementWithImages p {
+    max-width: 800px;
+}
+
+.elementWithImages h3{
+    font-weight: normal;
+    margin-top: 50px;
+    font-size: 22px;
+    border: 2px solid black;
+    padding: 9px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.element h2, .elementWithImages h2{
+    font-weight: normal;
+    margin-top: 50px;
+    font-size: 32px;
+    border: 2px solid black;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.link{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.link:hover{
+    color: rgb(0, 100, 200);
+}
+
+.linkButton{
+    background-color: rgb(0,100,200);
+    padding: 9px;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.linkButton:hover{
+    background-color: rgb(0,100,230);
+}
+
+.sideColumn{
+    margin: 0px 0px 50px;
+}
+
+@media (min-width: 800px){
+    .sideColumn{
+        display: inline-block;
+        max-width: 25%;
+        position: fixed;
+        left: 70%;
+        font-size: 18px;
+    }
+
+    
+    .element{
+        max-width: 800px;
+    }
+    
+    .mainColumn{
+        max-width: 70%;
+    }
+    
+    .elementWithImages{
+        max-width: 1200px;
+    }
+}
+
+.sideColumn h3{
+    font-weight: normal;
+    font-size: 22px;
+    padding: 4px 0px;
+}
+
+.sideColumn ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sideColumn ul li{
+    cursor: pointer;
+    padding: 4px 9px;
+    border-left: 4px solid black;
+    margin: 0;
+    margin-top: 4px;
+}
+
+.sideColumn ul li:hover{
+    border-left: 4px solid rgb(25, 25, 25);
+    color: rgb(25, 25, 25);
+}
+
+.sideColumn ul ul li{
+    padding: 2px 9px;
+    border-left: 4px solid rgb(50, 50, 50);
+    margin: 0;
+    margin-top: 4px;
+    margin-left: 12px;
+}
+
+.sideColumn ul ul li:hover{
+    border-left: 4px solid rgb(105, 105, 105);
+    color: rgb(25, 25, 25);
+}
+
+
+.mainColumn{
+    display: inline-block;
+    margin: 20px;
+}

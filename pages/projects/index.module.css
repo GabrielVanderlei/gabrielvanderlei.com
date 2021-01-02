@@ -1,0 +1,40 @@
+.h1{
+    font-weight: normal;
+}
+
+.longInput{
+    width:70%;
+    padding: 9px;
+    border: 1px solid rgb(200, 200, 200);
+    background-color: white;
+    font-family: inherit;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.projectCard{
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+    margin: 15px 0;
+    padding: 9px;
+    font-size: 12px;
+}
+
+.projectCard .title{
+    font-size: 22px;
+}
+
+.projectCard .badge{
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+    padding: 3px;
+    font-size: 10px;
+    margin: 0 5px 0 0;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.projectCard .client{
+    text-transform: uppercase;
+}
