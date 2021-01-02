@@ -11,6 +11,12 @@ class MyDocument extends Document {
       <Html>
         <head>
           <Head />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-K7GL3115G1"></script>
+          <script dangerouslySetInnerHTML={{ __html: `window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-K7GL3115G1');
+          `}}></script>
           <meta name="vavel-chat-tag" content="5fc1804c146c144e81448caf" />
           <script src="http://chat.vavel.id/lib/chat/5fc1804c146c144e81448caf.js"></script>
         </head>
