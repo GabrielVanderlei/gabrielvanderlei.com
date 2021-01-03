@@ -18,7 +18,7 @@ class MyDocument extends Document {
             gtag('config', 'G-K7GL3115G1');
           `}}></script>
           <meta name="vavel-chat-tag" content="5fc1804c146c144e81448caf" />
-          <script src="http://chat.vavel.id/lib/chat/5fc1804c146c144e81448caf.js"></script>
+          <script src="https://chat.vavel.id/lib/chat/5fc1804c146c144e81448caf.js"></script>
         </head>
         <body>
           <Main />
