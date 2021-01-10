@@ -58,6 +58,7 @@ export async function getStaticProps() {
     }
 
     let projects = [
+        
         {
             title: 'SMART Event 2.0',
             status: 1,
@@ -137,6 +138,24 @@ export async function getStaticProps() {
             category: 1,
             theme: 0,
             description: 'Sistema de gestão de associados'
+        },
+        
+        {
+            title: 'Fall Fall',
+            status: 3,
+            client: 3,
+            category: 1,
+            theme: 2,
+            description: 'Jogo simples desenvolvido com HTML5 e CSS3'
+        },
+        
+        {
+            title: 'Randomizer',
+            status: 3,
+            client: 3,
+            category: 1,
+            theme: 2,
+            description: 'Sistema de geração de números aleatórios com HTML5 e CSS3'
         }
     ]
 
@@ -144,6 +163,7 @@ export async function getStaticProps() {
         0: 'Instituto Internacional Despertando Vocações',
         1: 'VAVEL Media',
         2: 'VAND',
+        3: 'Pessoal'
     }
 
     const status = {
@@ -163,7 +183,8 @@ export async function getStaticProps() {
 
     const themes = {
         0: 'Gestão',
-        1: 'Educacional'
+        1: 'Educacional',
+        2: 'Entreterimento'
     }
 
     let calculate = {
