@@ -12,12 +12,12 @@ export default function Header(){
                 <div className={styles.options}>
                     <Link href="/">
                         <div className={styles.menuOptions}>
-                            Início
+                            Home
                         </div>
                     </Link>
                     <Link href="/projects">
                         <div className={styles.menuOptions}>
-                            Projetos
+                            Other Projects
                         </div>
                     </Link>
                 </div>

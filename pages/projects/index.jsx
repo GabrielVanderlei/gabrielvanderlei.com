@@ -16,7 +16,7 @@ export default function Projects({ projects, information }) {
 
             <div className={styles.content}>
                 <div>
-                    <input className={styles.longInput} type="text" placeholder="Insira um filtro" onChange={(e) => {
+                    <input className={styles.longInput} type="text" placeholder="Insert a filter" onChange={(e) => {
                         let value = (e.target.value).toLowerCase();
                         setSelectedProjects(projects.filter((projectContent) => {
                             let projectValues = Object.values(projectContent);
@@ -24,7 +24,7 @@ export default function Projects({ projects, information }) {
                             return searchPool.indexOf(value) > -1;
                         }))
                     }} />
-                    <p>Visualizando atualmente {selectedProjects.length} projetos</p>
+                    <p>Currently viewing {selectedProjects.length} project(s)</p>
                 </div><br />
 
                 <div>
@@ -53,8 +53,8 @@ export default function Projects({ projects, information }) {
 
 export async function getStaticProps() {
     const information = {
-        title: "Projetos",
-        description: "Projetos em que estou relacionado e seus estados de desenvolvimento"
+        title: "Projects",
+        description: "Projects I am related to and their states of development"
     }
 
     let projects = [
@@ -64,16 +64,16 @@ export async function getStaticProps() {
             client: 0,
             category: 1,
             theme: 0,
-            description: 'Sistema de Gestão de Eventos com base em nuvem'
+            description: 'Cloud-based Event Management System'
         },
         
         {
             title: 'SISGER',
-            status: 2,
+            status: 3,
             client: 0,
             category: 1,
             theme: 0,
-            description: 'Sistema de Gestão de Recursos'
+            description: 'International Institute Awakening Vocations Resource Management System'
         },
         
         {
@@ -82,7 +82,7 @@ export async function getStaticProps() {
             client: 2,
             category: 1,
             theme: 0,
-            description: 'Sistema de Gestão de Recursos Empresariais'
+            description: 'Enterprise Resource Planning system'
         },
         
         {
@@ -91,7 +91,7 @@ export async function getStaticProps() {
             client: 1,
             category: 1,
             theme: 0,
-            description: 'Sistema de Chat'
+            description: 'VAVEL Chat System'
         },
 
         {
@@ -100,7 +100,7 @@ export async function getStaticProps() {
             client: 0,
             category: 0,
             theme: 1,
-            description: 'Aplicativo de Quiz'
+            description: 'Educational mobile application focused on questions and answers about fundamental chemistry.'
         },
 
         {
@@ -109,16 +109,16 @@ export async function getStaticProps() {
             client: 0,
             category: 1,
             theme: 0,
-            description: 'Sistema de Gestão de Eventos'
+            description: 'International Awakening Vocations event management system'
         },
 
         {
-            title: 'COINTER 2018 Sites',
+            title: 'COINTER 2018 Websites',
             status: 4,
             client: 0,
             category: 1,
             theme: 0,
-            description: 'Site dos Congressos Internacionais Despertando Vocações (2018)'
+            description: 'International Congresses Awakening Vocations website (2018)'
         },
 
         {
@@ -127,7 +127,7 @@ export async function getStaticProps() {
             client: 0,
             category: 1,
             theme: 0,
-            description: 'Sistema de gestão de certificados'
+            description: 'International Institute Awakening Vocations Certification System'
         },
 
         {
@@ -136,34 +136,34 @@ export async function getStaticProps() {
             client: 0,
             category: 1,
             theme: 0,
-            description: 'Sistema de gestão de associados'
+            description: 'International Institute Awakening Vocations Association System'
         }
     ]
 
     const clients = {
-        0: 'Instituto Internacional Despertando Vocações',
+        0: 'International Institute Awakening Vocations',
         1: 'VAVEL Media',
-        2: 'VAND',
+        2: 'Personal',
     }
 
     const status = {
-        0: { data: 'Em análise', color: 'blank', background: 'white' },
-        1: { data: 'Em desenvolvimento', color: 'white', background: 'green' },
-        2: { data: 'Disponível para testes', color: 'white', background: 'blue' },
-        3: { data: 'Em produção', color: 'white', background: 'orange' },
-        4: { data: 'Finalizado', color: 'black', background: 'rgb(200, 200, 200)' },
+        0: { data: 'In analysis', color: 'blank', background: 'white' },
+        1: { data: 'In development', color: 'white', background: 'green' },
+        2: { data: 'Available for testing', color: 'white', background: 'blue' },
+        3: { data: 'In production enviroment', color: 'white', background: 'orange' },
+        4: { data: 'Finished', color: 'black', background: 'rgb(200, 200, 200)' },
     }
     
     const categories = {
-        0: 'Aplicativo Mobile',
-        1: 'Aplicação Web',
-        2: 'Site Institucional',
-        3: 'Canal Informativo'
+        0: 'Mobile Application',
+        1: 'Web Application',
+        2: 'Institutional Website',
+        3: 'Informative'
     }
 
     const themes = {
-        0: 'Gestão',
-        1: 'Educacional'
+        0: 'Management',
+        1: 'Education'
     }
 
     let calculate = {
