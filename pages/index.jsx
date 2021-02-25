@@ -64,7 +64,7 @@ export default function Home() {
             <h2>Featured Projects</h2>
             <br />
 
-            <h3 id="featured-raapp">Minha Stack (2020 - Nowadays)</h3>
+            <h3 id="featured-minhastack">Minha Stack (2020 - Nowadays)</h3>
             <br />
             <p>Educational project about development, coding and tech skills.</p>
             <Link href="https://minhastack.com/"><a target="_blank" className={styles.linkButton}>Acess website</a></Link><br />
