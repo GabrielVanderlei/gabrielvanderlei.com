@@ -141,12 +141,12 @@ export async function getStaticProps() {
         },
         
         {
-            title: 'Fall Fall',
+            title: 'SpakleBall',
             status: 3,
             client: 3,
             category: 1,
             theme: 2,
-            description: 'Simple game built with HTML5 and CSS3'
+            description: 'Simple game built with HTML5 and CSS3 with mobile app disponible in Google Play.'
         },
         
         {
