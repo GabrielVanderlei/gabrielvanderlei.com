@@ -96,7 +96,7 @@ export async function getStaticProps() {
         },
 
         {
-            title: 'Roleta Atômica',
+            title: 'Atomic Roulette',
             status: 3,
             client: 0,
             category: 0,
@@ -123,7 +123,7 @@ export async function getStaticProps() {
         },
 
         {
-            title: 'Sistema de Certificados',
+            title: 'Certification System',
             status: 3,
             client: 0,
             category: 1,
@@ -132,7 +132,7 @@ export async function getStaticProps() {
         },
 
         {
-            title: 'Sistema de Associados',
+            title: 'Association System',
             status: 3,
             client: 0,
             category: 1,
