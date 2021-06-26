@@ -33,7 +33,7 @@ export default function Home() {
         <img src="/assets/profile.jpeg" className={styles.img} />
         <h1 className={styles.title}> 
           Software and Hardware developer <br />
-          <Link href="https://linkedin.com/gabriel-vanderlei">
+          <Link href="https://linkedin.com/in/gabriel-vanderlei">
             <a target="_blank" className={styles.link}>
               <AiOutlineLinkedin />
             </a>
